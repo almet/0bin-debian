@@ -1,0 +1,21 @@
+Source: zerobin
+Maintainer: Alexis Metaireau <alexis@notmyidea.org>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3),
+ debhelper (>= 7.4.3)
+Standards-Version: 3.9.5
+Homepage: http://www.0bin.net
+Vcs-Browser: 
+
+Package: python-zerobin
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: A client-side encrypted pastebin
+ 0bin is a client-side encrypted pastebin that can run without a database.
+ .
+ 0bin allows anybody to host a pastebin while welcoming any type of
+ content to be pasted in it.
+ .
+ The idea is that the admins cannot be legally entitled to moderate the
+ pastebin content as she has no way to decrypt it.
